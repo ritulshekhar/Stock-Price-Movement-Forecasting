@@ -5,7 +5,7 @@ load_dotenv()
 
 class Config:
     # API Keys
-    NEWS_API_KEY = os.getenv('NEWS_API_KEY', 'your_newsapi_key_here')
+    NEWS_API_KEY = os.getenv('NEWS_API_KEY', '5730126fdb514627b3b6a6115d6d5aa7')
     
     # Stock Configuration
     STOCK_SYMBOL = 'AAPL'

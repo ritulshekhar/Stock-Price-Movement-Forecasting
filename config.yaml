@@ -1,6 +1,6 @@
 # API credentials (register at newsapi.org and get free key)
 newsapi_key: "5730126fdb514627b3b6a6115d6d5aa7"
-tickers = ["MSFT", "AAPL", "GOOG", "AMZN", "TSLA", "JPM", "V", "NVDA"]
+tickers: ["MSFT", "AAPL", "GOOG", "AMZN", "TSLA", "JPM", "V", "NVDA"]
 start_date: "2018-01-01"
 end_date: "2023-12-31"
 
