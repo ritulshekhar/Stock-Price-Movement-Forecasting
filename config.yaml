@@ -1,12 +1,8 @@
-# API credentials (register at newsapi.org and get free key)
-newsapi_key: "5730126fdb514627b3b6a6115d6d5aa7"
-tickers: ["MSFT", "AAPL", "GOOG", "AMZN", "TSLA", "JPM", "V", "NVDA"]
-start_date: "2018-01-01"
-end_date: "2023-12-31"
-
-# Model parameters
 sequence_length: 30
-test_size: 0.2
-lstm_units: 64
 epochs: 50
 batch_size: 32
+test_size: 0.2
+lstm_units: 64
+forecast_periods: 30
+newsapi_key: "5730126fdb514627b3b6a6115d6d5aa7"
+tickers: ["MSFT","AAPL","GOOG","AMZN","META"]
