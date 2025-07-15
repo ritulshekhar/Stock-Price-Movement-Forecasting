@@ -1,0 +1,12 @@
+# API credentials (register at newsapi.org and get free key)
+newsapi_key: "your_newsapi_key_here"
+ticker: "AAPL"
+start_date: "2018-01-01"
+end_date: "2023-12-31"
+
+# Model parameters
+sequence_length: 30
+test_size: 0.2
+lstm_units: 64
+epochs: 50
+batch_size: 32
